@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ca.hss</groupId>
-  <artifactId>hss-java</artifactId>
+  <groupId>ca.hss.wise</groupId>
+  <artifactId>hss-java-wise</artifactId>
   <packaging>jar</packaging>
-  <version>1.2.0-3</version>
-  <name>hss-java</name>
-  <url>http://heartlandsoftware.ca/</url>
+  <version>1.2.4</version>
+  <name>hss-java-wise</name>
+  <url>https://firegrowthmodel.ca</url>
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
