@@ -36,7 +36,8 @@ jobs:
         git add pom.xml
         git commit -m "[skip ci]"
         git tag -a v$APPLICATION_VERSION -m "Release v$APPLICATION_VERSION"
-        echo "::set-output name=application_version::v$APPLICATION_VERSION"
+        echo "application_version=$APPLICATION_VERSION" >> $GITHUB_OUTPUT
+       # echo "::set-output name=application_version::v$APPLICATION_VERSION"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
