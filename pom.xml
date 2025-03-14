@@ -4,7 +4,7 @@
   <groupId>ca.hss.wise</groupId>
   <artifactId>hss-java-wise</artifactId>
   <packaging>jar</packaging>
-  <version>1.2.4-2</version>
+  <version>1.2.4-3</version>
   <name>hss-java-wise</name>
   <url>https://firegrowthmodel.ca</url>
   <properties>
